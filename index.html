@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Nathan Perez | Personal Website</title>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link defer="" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="content/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+
+
+<body>
+    <!--full screen page-->
+    <div id="home">
+        <div class="container">
+            <div class="row row-cols-1 text-responsive" id="main">
+                <div class="col text-center">
+                    <div class="row">
+                        <div id="name" class="col text-lg-end">Nathan</div>
+                        <div id="name" class="col text-lg-start d-none d-lg-block"> Perez</div>
+                    </div>
+                </div>
+
+                <div class="col text-center d-none d-sm-block">
+                    <p> Programmer &nbsp;•&nbsp; Photographer &nbsp;•&nbsp; Tutor </p>
+                </div>
+                <div class="col text-center" id="links">
+                    <a href="https://github.com/NathanPerezR" class="fa fa-github" target="_blank"></a>
+                    <a href="https://linkedin.com/in/nathanperezr" class="fa fa-linkedin" target="_blank"></a>
+                    <a href="#footer" class="fa fa-envelope-o"></a>
+                    <a href="https://instagram.com/nathanperezr" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://twitter.com/nathanperezr" class="fa fa-twitter" target="_blank"></a>
+                </div>
+            </div>
+            <a href="#navbar" class="fa fa-angle-down"></a>
+        </div>
+    </div>
+
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-gradient flex-wrap" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="content/favicon.ico"></a>
+            <a href="#footer" class="navbar-toggler fa fa-link"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#cards">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="content/Nathan Perez CV.pdf" target="_blank">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio">Bio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Cards-->
+    <div class="container-fluid pb-4 bg-gradient" id="cards">
+
+            <h1 id="bio" class="pt-4">About me</h1>
+                <p> 
+                    My name is Nathan Perez, I am a student at the Univeristy of Texas at Dallas studying Computer Science. I have experience tutoring math at the university level, and enjoy photography in my free time.  
+                    This website is a collection of projects I have worked on so far, and it will be periodically updated with new things.
+                </p>
+            <h1>Projects</h1>
+        <div class="row">
+            <!--ColorClock-->
+            <div class="col-sm-6 pt-4 ">
+                <div class="card bg-gradient">
+                    <div class="card-body">
+                        <img src="content/ScreenshotOfColorClock.png" class="card-img-top" alt="...">
+                        <h5 class="card-title pt-4">ColorClock</h5>
+                        <p class="card-text">A website written in Javascript, HTML, and CSS that creates a new color in Hex and RGB every few seconds.</p>
+                        <a class="btn btn-primary fa fa-github fa-2x" href="https://github.com/NathanPerezR/PersonalWebsite/blob/main/ColorClock.html" target="_blank"></a>                                                           
+                        <a class="btn btn-primary fa fa-external-link-square fa-2x" href="ColorClock.html" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <!--PersonalWebsite-->
+            <div class="col-sm-6 pt-4 ">
+                <div class="card bg-gradient">
+                    <div class="card-body">
+                        <img src="content/ScreenshotOfWebsite.png" class="card-img-top" alt="...">
+                        <h5 class="card-title pt-4">NathanPerezR.dev</h5>
+                        <p class="card-text">A simple, mobile responsive portfolio website written in HTML, CSS, and Bootstrap 5.</p>
+                        <a href="https://github.com/NathanPerezR/PersonalWebsite" class="btn btn-primary fa fa-github fa-2x" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--samplecard
+            <div class="col-sm-6 pt-4 ">
+                <div class="card bg-gradient">
+                    <div class="card-body">
+                        <img src="content/placeholder.svg" class="card-img-top" alt="...">
+                        <h5 class="card-title pt-4">Placeholder</h5>
+                        <p class="card-text">Placeholder</p>
+                        <a href="#" class="btn btn-primary">Placeholder</a>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-gradient" id="footer">
+        <div class="container ">
+            <div class="row-1 text-center">
+                <div class="col">
+                    contact: <A class="email-typed"
+                        HREF="mailto: &#078;&#097;&#116;&#104;&#097;&#110;&#080;&#101;&#114;&#101;&#122;&#046;&#066;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"> &#078;&#097;&#116;&#104;&#097;&#110;&#080;&#101;&#114;&#101;&#122;&#046;&#066;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+                    </A>
+                </div>
+                <div class="col">
+                    Socials:
+                    <a href="https://github.com/NathanPerezR" class="fa fa-github" target="_blank"></a>
+                    <a href="https://linkedin.com/in/nathanperezr" class="fa fa-linkedin" target="_blank"></a>
+                    <a href="https://instagram.com/nathanperezr" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://twitter.com/nathanperezr" class="fa fa-twitter" target="_blank"></a>
+                </div>
+                <div class="col CV">
+                    CV: <a href="content/Nathan Perez CV.pdf" target="_blank" class="fa fa-file"></a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    </html>
